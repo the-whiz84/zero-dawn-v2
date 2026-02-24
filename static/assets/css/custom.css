@@ -1,0 +1,16 @@
+/* Custom overrides for Zero-Dawn v2 */
+
+/* Ensure project preview images have consistent height with cropped overflow */
+.project-thumb {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+}
+
+@media (max-width: 767.98px) {
+  .project-thumb {
+    height: 180px;
+  }
+}
+
